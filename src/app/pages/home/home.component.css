@@ -85,12 +85,6 @@
     opacity: 34.6 !important;
 }
 
-.text-purple{
-    color:#79287A !important;
-}
-.bg-purple{
-    background-color:#79287A !important;
-}
-.text-pink{
-   color:#EE4886 !important;
-}
+.border-radius-own {
+    border-radius: 10px 100px / 120px !important;
+  }
