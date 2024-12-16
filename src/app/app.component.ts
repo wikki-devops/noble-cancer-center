@@ -16,6 +16,7 @@ export class AppComponent {
     script.src = 'assets/js/jquery.js';
     script.src = 'assets/js/vendors.min.js';
     script.src = 'assets/js/main.js';
+   
 
     this.renderer.appendChild(document.body, script);
 
