@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { OncologyComponent } from './pages/oncology/oncology.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { CtaComponent } from './pages/cta/cta.component';
 
 
 
@@ -21,7 +22,7 @@ import { FaqComponent } from './pages/faq/faq.component';
     OncologyComponent,
     ContactComponent,
     FaqComponent,
-   
+    CtaComponent   
   ],
   imports: [
     BrowserModule,
