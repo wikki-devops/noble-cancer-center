@@ -7,3 +7,40 @@
 .text-pink{
    color:#EE4886 !important;
 }
+.bg-light{
+    background-color:#FDEEF2!important;
+}
+.bg-light-2{
+    background-color:#AEA4C3!important;
+}
+
+.list-style-02 .btn {
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+    padding: 15px 30px; 
+    border-radius: 30px; 
+    font-size: 17px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.list-style-02 .btn span {
+    display: inline-flex; 
+    align-items: center; 
+    padding-left: 10px; 
+    background-color:#79287A; 
+    color: #fff; 
+    border-radius: 50%; 
+    padding: 8px; 
+}
+
+.list-style-02 .btn:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.list-style-02 .btn span i {
+    font-size: 14px;
+}
+

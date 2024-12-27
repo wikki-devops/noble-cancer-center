@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./oncology.component.css']
 })
 export class OncologyComponent {
-    
+  pagetitle = 'Oncology Consultation';
 }

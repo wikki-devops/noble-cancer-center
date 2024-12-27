@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent {
-
+  pagetitle = 'Frequently Asked Questions';
 }
+

@@ -10,6 +10,13 @@ import { OncologyComponent } from './pages/oncology/oncology.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { CtaComponent } from './pages/cta/cta.component';
+import { DaycarechemotherapyComponent } from './pages/daycarechemotherapy/daycarechemotherapy.component';
+import { PagebannerComponent } from './pages/pagebanner/pagebanner.component';
+import { ImmunotherapyComponent } from './pages/immunotherapy/immunotherapy.component';
+import { TargetedtherapyComponent } from './pages/targetedtherapy/targetedtherapy.component';
+import { PsychooncologyComponent } from './pages/psychooncology/psychooncology.component';
+import { CancerscreeningComponent } from './pages/cancerscreening/cancerscreening.component';
+import { FacilitiesComponent } from './pages/facilities/facilities.component';
 
 
 
@@ -22,7 +29,14 @@ import { CtaComponent } from './pages/cta/cta.component';
     OncologyComponent,
     ContactComponent,
     FaqComponent,
-    CtaComponent   
+    CtaComponent,
+    DaycarechemotherapyComponent,
+    PagebannerComponent,
+    ImmunotherapyComponent,
+    TargetedtherapyComponent,
+    PsychooncologyComponent,
+    CancerscreeningComponent,
+    FacilitiesComponent   
   ],
   imports: [
     BrowserModule,
