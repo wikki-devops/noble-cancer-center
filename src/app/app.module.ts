@@ -17,6 +17,7 @@ import { TargetedtherapyComponent } from './pages/targetedtherapy/targetedtherap
 import { PsychooncologyComponent } from './pages/psychooncology/psychooncology.component';
 import { CancerscreeningComponent } from './pages/cancerscreening/cancerscreening.component';
 import { FacilitiesComponent } from './pages/facilities/facilities.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 
@@ -36,7 +37,8 @@ import { FacilitiesComponent } from './pages/facilities/facilities.component';
     TargetedtherapyComponent,
     PsychooncologyComponent,
     CancerscreeningComponent,
-    FacilitiesComponent   
+    FacilitiesComponent,
+    SidebarComponent   
   ],
   imports: [
     BrowserModule,

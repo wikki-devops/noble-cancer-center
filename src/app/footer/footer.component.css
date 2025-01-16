@@ -1,14 +1,16 @@
-footer .footer-logo img{
+footer .footer-logo img {
     max-height: 100px !important;
 }
 
 .text-white {
     color: #fff !important;
 }
+
 .icon-size {
     width: 50px !important;
     height: 50px !important;
 }
+
 .border-radius-6px {
     border-radius: 6px !important;
 }
@@ -16,15 +18,23 @@ footer .footer-logo img{
 .gap-3 {
     gap: 1rem !important;
 }
+
 .p-3 {
     padding: 1rem !important;
 }
+
 .fw-bold {
     font-weight: 700 !important;
 }
+
 .text-center {
     text-align: center !important;
 }
-.fa-angle-double-right::before{
-    color:#79287A !important;
+
+.fa-angle-double-right::before {
+    color: #79287A !important;
+}
+
+.bg-cornflower-blue {
+    background-image: linear-gradient(to right, #79287A, #EE4886, #79287A);
 }
