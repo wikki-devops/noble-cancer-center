@@ -1,3 +1,7 @@
-.tab-style-07 .nav-tabs .nav-item .nav-link{
-    padding: 15px 10px 15px !important ;
+.tab-style-07 .nav-tabs .nav-item .nav-link {
+    padding: 15px 10px 15px !important;
+}
+
+.accordion-style-02 .accordion-item.active-accordion .accordion-header {
+    border-bottom-color: var(--bs-border-color)  !important;
 }

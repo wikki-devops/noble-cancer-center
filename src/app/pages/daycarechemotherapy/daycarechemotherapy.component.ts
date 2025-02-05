@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./daycarechemotherapy.component.css']
 })
 export class DaycarechemotherapyComponent {
-   pagetitle = 'Day Care Chemotherapy';
+   pagetitle = 'DayCare Chemotherapy';
 }

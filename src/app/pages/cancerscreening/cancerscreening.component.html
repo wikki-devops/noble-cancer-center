@@ -1,174 +1,84 @@
 <app-pagebanner [pagetitle]="pagetitle"></app-pagebanner>
-<section class="overlap-height position-relative">
-    <div class="container overlap-gap-section">
+<section class="pt-40px pb-40px position-relative">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-4 pe-6 order-2 order-lg-1 lg-pe-4 md-pe-15px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <div class="position-sticky top-80px lg-top-40px">
-                    <div class="mb-30px alt-font">
-                        <ul class="p-0 m-0 list-style-02  fw-500">
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Immuno
-                                    Theraphy<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Targted
-                                    Theraphy<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Pain
-                                    & Palliative care<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Screening
-                                    for Cancers <span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Psycho-oncology
-                                    Consultation<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Cancer
-                                    Vaccination<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                        </ul>
-                    </div>
-                    <div
-                        class="ps-14 pe-14 pt-10 pb-10 lg-p-25px bg-dark-gray border-radius-6px text-center text-lg-start">
-                        <span class="fs-24 fw-500 text-white mb-10px d-inline-block">Open to Discover Hope</span>
-                        <p class="text-white mb-15px alt-font fs-17">
-                            Every page promises innovation, expert care, and unwavering support. Open to see how we’re
-                            transforming cancer care.
-                        </p>
-                        <a href="assets/brochure.pdf" download
-                            class="btn btn-extra-large btn-switch-text btn-gradient-purple-pink btn-rounded ls-0px mt-15px">
-                            <span>
-                                <span class="btn-double-text alt-font fs-17 align" data-text="Download">Download</span>
-                                <span><i class="fa-solid fa-download"></i></span>
-                            </span>
-                        </a>
-                    </div>
-
-                </div>
+            <div class="col-lg-4" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <app-sidebar></app-sidebar>
             </div>
-            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-
-                <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500"><span class="text-highlight fw-800">Transforming Care Through Early
-                        Detection.<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="alt-font fs-17"> At Noble Cancer Care, we prioritize your health and well-being by offering
-                    comprehensive cancer screening services. These specialized tests are designed to detect early signs
-                    of cancer, often before any symptoms appear. Research shows that early detection can make cancer
-                    easier to treat and, in many cases,
+            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Transforming Care Through <span class="text-dark-gray">Early Detection</span></h3>
+                <p class="fs-18 text-dark-gray fw-400">
+                    At Noble Cancer Care, we prioritize your health and well-being by offering comprehensive cancer screening services. These specialized tests are designed to detect early signs of cancer, often before any symptoms appear.
+                    Research shows that early detection can make cancer easier to treat and, in many cases,
 
                     <strong class="text-dark-gray"> increase the chances of a full recovery. </strong>
                 </p>
 
+                <p class="fs-18 text-dark-gray fw-400">
+                    Our expert healthcare providers recommend cancer screenings based on your age, medical history, and risk factors—not because they believe you have cancer, but to ensure proactive care. While most individuals may not
+                    require screening tests until their 40s, <strong class="text-dark-gray"> we’re here to guide you in making informed decisions about your health.</strong>
+                </p>
+                <img src="assets/images/services/5.png" class="mb-20px" alt="" />
 
-                <p class="alt-font fs-17">Our expert healthcare providers recommend cancer screenings based on your age,
-                    medical history, and risk factors—not because they believe you have cancer, but to ensure proactive
-                    care. While most individuals may not require screening tests until their 40s, <strong
-                        class="text-dark-gray"> we’re here to guide you in making informed decisions about your
-                        health.</strong> </p>
+                <p class="fs-18 text-dark-gray fw-400">Rely on Noble Cancer Care to provide advanced screening services, ensuring early detection and peace of mind for you and your loved ones. Your health is our commitment.</p>
+                <app-widget-service></app-widget-service>
+                <div class="h-1px w-100 bg-extra-medium-gray mt-4 mb-4"></div>
 
-
-                <div class="mb-6 sm-mb-35px last-paragraph-no-margin">
-                    <img src="assets/image/services/5.png" class="mb-20px" alt="">
-                    <div class="px-3">
-                        <p class="text-dark-gray alt-font fs-17 lh-30">
-                            Rely on Noble Cancer Care to provide advanced screening services, ensuring early detection
-                            and peace of mind for you and your loved ones. Your health is our commitment.
-                        </p>
-                    </div>
-                    <div class="row mt-5 sm-mt-30px"
-                        data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="col-12 text-center">
-                            <div
-                                class="d-inline-block bg-purple fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px sm-m-10px">
-                                trust</div>
-                            <div class="d-inline-block align-middle"><span
-                                    class="fs-24 text-pink d-block fw-600 ls-minus-1px mb-0 ">"Believe in those who
-                                    walk with you; their strength becomes yours."</span></div>
+                <h3 class="fw-600 alt-font text-black shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Who should be <span class="text-base-color">screened </span>for cancer?</h3>
+                <p class="fs-18 text-dark-gray fw-400">
+                    Cancer screening guidelines vary based on the type of cancer and your situation. People age 20 and older should ask a healthcare provider if they should have a cancer-related checkup. Healthcare providers use these
+                    checkups to determine if people have cancer risk factors. A risk factor is something that increases the chance you’ll have cancer. A family history of cancer is a risk factor.
+                </p>
+                <p class="fs-18 text-dark-gray fw-400">That said, people generally don’t need regular cancer screening tests until they’re in their 40s. There are exceptions, including:</p>
+                <div class="icon-with-text-style-08 mb-10px">
+                    <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+                        <div class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-light-medium-gray rounded-circle me-15px">
+                            <i class="fa-solid fa-check fs-14 text-base-color"></i>
                         </div>
-                    </div>
-                    <div class="h-1px w-100 bg-extra-medium-gray mt-4 mb-4"></div>
-                </div>
-
-                <div class=""
-                    data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                        data-animation-delay="1500">Who should be screened for<span class="text-highlight fw-800">
-                            cancer<span
-                                class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                    </h3>
-                    <p class=" alt-font fs-17">Cancer screening guidelines vary based on the type of cancer and your
-                        situation. People age 20 and older should ask a healthcare provider if they should have a
-                        cancer-related checkup. Healthcare providers use these checkups to determine if people have
-                        cancer risk factors. A risk factor is something that increases the chance you’ll have cancer. A
-                        family history of cancer is a risk factor.</p>
-                    <P class=" alt-font fs-17">That said, people generally don’t need regular cancer screening tests
-                        until they’re in their 40s. There are exceptions, including:</P>
-                    <div class="icon-with-text-style-08 mb-10px">
-                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                            <div
-                                class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-light-medium-gray rounded-circle me-15px">
-                                <i class="fa-solid fa-check fs-14 text-dark-gray"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="text-dark-gray fw-500  alt-font fs-17">You’ve been diagnosed with a
-                                    pre-cancerous condition.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="icon-with-text-style-08 mb-10px alt-font fs-17">
-                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                            <div
-                                class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-light-medium-gray rounded-circle me-15px">
-                                <i class="fa-solid fa-check fs-14 text-dark-gray"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="text-dark-gray fw-500">You have a family history of cancer, particularly
-                                    cancer diagnosed in younger family members.</span>
-                            </div>
+                        <div class="feature-box-content">
+                            <span class="fs-18 text-dark-gray fw-400">You’ve been diagnosed with a pre-cancerous condition.</span>
                         </div>
                     </div>
                 </div>
-
+                <div class="icon-with-text-style-08 mb-10px">
+                    <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+                        <div class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-light-medium-gray rounded-circle me-15px">
+                            <i class="fa-solid fa-check fs-14 text-base-color"></i>
+                        </div>
+                        <div class="feature-box-content">
+                            <span class="fs-18 text-dark-gray fw-400">You have a family history of cancer, particularly cancer diagnosed in younger family members. </span>
+                        </div>
+                    </div>
+                </div>
                 <div class="bg-light p-6 mt-6 mb-9 border-radius-6px">
                     <div class="row">
                         <div class="col-md-6 pe-5 lg-pe-15px mb-4">
                             <h5 class="text-dark-gray fw-600 mb-8">Benefits of Immunotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 text-dark-gray alt-font fs-17">
+                            <ul class="p-0 m-0 list-style-02 text-dark-gray fs-18 text-gray fw-400 primary-font">
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check fs-15 me-10px"></i>
                                     Screening can identify cancer at an early stage
                                 </li>
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check fs-15 me-10px"></i>
-                                    Early intervention often leads to better treatment success rates and improved
-                                    survival rates.
+                                    Early intervention often leads to better treatment success rates and improved survival rates.
                                 </li>
                                 <li class="pb-10px">
                                     <i class="fa-solid fa-check fs-15 me-10px"></i>
-                                    Some tests can detect precancerous conditions, allowing for measures to prevent
-                                    cancer.
+                                    Some tests can detect precancerous conditions, allowing for measures to prevent cancer.
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <h5 class="text-dark-gray fw-600 mb-8">Downsides of Immunotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 text-dark-gray alt-font fs-17">
+                            <ul class="p-0 m-0 list-style-02 text-dark-gray fs-18 text-gray fw-400 primary-font">
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-xmark fs-15 me-10px"></i>
                                     Screening can sometimes indicate cancer when none is present
                                 </li>
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-xmark fs-15 me-10px"></i>
-                                    Certain tests, like biopsies, may have risks such as infection, discomfort, or
-                                    complications.
+                                    Certain tests, like biopsies, may have risks such as infection, discomfort, or complications.
                                 </li>
                                 <li class="pb-10px">
                                     <i class="fa-solid fa-xmark fs-15 me-10px"></i>
@@ -179,54 +89,45 @@
                     </div>
                 </div>
 
-                <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500">Common cancer <span class="text-highlight fw-800">Screening tests<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">Physical
-                        examination</span>During your routine physical exam, a healthcare provider may check for any
-                    changes in your body, such as unusual lumps. They will also ask about your lifestyle habits and your
-                    family's medical history.
-                </p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom"> Laboratory
-                        tests</span>These tests may involve blood tests for cancer, tissue collection procedures, and
-                    urine tests. For instance, Pap smears are a type of screening test used to collect tissue samples
-                    for medical pathologists to analyze for signs of cancer. </p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">Imaging tests
-                    </span> These tests are used to capture detailed images of the inside of your body to help detect
-                    abnormalities. These tests are often employed in cancer screening and diagnosis. For example, a
-                    mammogram is a common imaging test specifically designed to screen for breast cancer.
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Common cancer <span class="text-dark-gray"> Screening tests</span></h3>
 
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Physical examination</span>During your routine physical exam, a healthcare provider may check for any changes in your body, such as unusual lumps. They will also ask about
+                    your lifestyle habits and your family's medical history.
                 </p>
                 <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">Genetic tests
-                        for cancer</span> If someone in your biological family has a type of hereditary cancer, your
-                    provider may recommend genetic tests to see if you have an increased risk of developing that cancer.
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom"> Laboratory tests</span>These tests may involve blood tests for cancer, tissue collection procedures, and urine tests. For instance, Pap smears are a type of screening
+                    test used to collect tissue samples for medical pathologists to analyze for signs of cancer.
                 </p>
-
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Imaging tests </span> These tests are used to capture detailed images of the inside of your body to help detect abnormalities. These tests are often employed in cancer
+                    screening and diagnosis. For example, a mammogram is a common imaging test specifically designed to screen for breast cancer.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Genetic tests for cancer</span> If someone in your biological family has a type of hereditary cancer, your provider may recommend genetic tests to see if you have an
+                    increased risk of developing that cancer.
+                </p>
             </div>
         </div>
     </div>
-
 </section>
-<section class="overflow-hidden">
+
+<section class="pt-40px pb-40px position-relative" style="background-image: url(assets/images/treatment-bg.png);">
     <div class="container">
-        <div class="row mb-7 justify-content-center">
-            <div class="col-lg-4 md-mb-60px sm-mb-45px text-center text-lg-start"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                <h3 class="fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500">Types of <span class="text-highlight fw-800">Cancer Screening<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="xl-w-100 alt-font fs-17">Cancer screening tests are essential tools for detecting cancer at
-                    early stages, often before symptoms appear, which can significantly improve treatment outcomes. Here
-                    are some common types of cancer screening tests.</p>
-                <p class="xl-w-100 alt-font fs-17">We’re Here for You !!<br>
-                    Schedule your consultation today to explore which immunotherapy method is right for you.</p>
-                <a href="#treatment-options"
-                    class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px fs-17">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 md-mb-60px sm-mb-45px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                <h3 class="fw-600 alt-font text-base-color mt-15px shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Types of <span class="text-dark-gray">Cancer Screening</span></h3>
+                <p class="fs-18 text-dark-gray fw-400">
+                    Cancer screening tests are essential tools for detecting cancer at early stages, often before symptoms appear, which can significantly improve treatment outcomes. Here are some common types of cancer screening tests.
+                </p>
+                <p class="fs-18 text-dark-gray fw-400">
+                    We’re Here for You !!<br />
+                    Schedule your consultation today to explore which immunotherapy method is right for you.
+                </p>
+                <a href="contact" class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px fs-17">
                     <span>
                         <span class="btn-double-text alt-font" data-text="Book Appointments">Book Appointments</span>
                         <span><i class="fa-solid fa-stethoscope"></i></span>
@@ -234,93 +135,72 @@
                 </a>
             </div>
             <div class="col-lg-8">
-                <div class="row row-cols-1 row-cols-md-2 justify-content-center"
-                    data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                <div class="row row-cols-1 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-syringe icon-extra-large text-base-color"></i>
-
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-syringe icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Breast cancer screening
-                                    tests</span>
-                                <p class="alt-font fs-17">Breast cancer screening, including mammograms and MRIs for
-                                    high-risk individuals, detects cancer early to improve outcomes.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Breast Cancer Screening Tests </span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Mammograms and MRIs for high-risk individuals detect breast cancer early, improving treatment outcomes.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-capsules icon-extra-large text-base-color"></i>
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-capsules icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Prostate cancer screening
-                                    tests</span>
-                                <p class="alt-font fs-17">PSA measures prostate-specific antigen levels in the blood,
-                                    and the DRE, a physical exam to detect abnormalities. Screening helps with early
-                                    detection but may lead to false positives or overdiagnosis.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Prostate Cancer Screening Tests </span>
+                                <p class="fs-18 text-gray fw-400 primary-font">PSA blood test and DRE exam help detect prostate cancer early, though they may lead to false positives or overdiagnosis.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 sm-mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-biohazard icon-extra-large text-base-color"></i>
-
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-biohazard icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Cervical cancer screening
-                                    tests</span>
-                                <p class="alt-font fs-17">
-                                    Cervical cancer screening detects early changes in cervical cells to prevent or
-                                    treat cancer effectively. Tests include Pap smears to identify abnormal cells and
-                                    HPV tests to detect the virus that can cause cervical cancer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-tint icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Lung cancer screening
-                                    tests</span>
-                                <p class="alt-font fs-17">Lung cancer screening uses low-dose computed tomography (LDCT)
-                                    to detect lung cancer at an early, more treatable stage. Regular screening can
-                                    improve survival rates through early detection.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-pump-soap icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Colorectal cancer tests</span>
-                                <p class="alt-font fs-17"> Colorectal cancer tests, such as colonoscopy and stool-based
-                                    tests, detect early signs of cancer or precancerous polyps, aiding prevention and
-                                    early treatment.
-
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Cervical Cancer Screening Tests</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">
+                                    Pap smears and HPV tests detect early cervical cell changes, helping to prevent or treat cancer effectively.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
+                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-tint icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Lung Cancer Screening Tests </span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Low-dose CT scans (LDCT) help detect lung cancer early, improving survival through early detection.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
+                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-pump-soap icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Colorectal Cancer Tests</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Colonoscopy and stool tests detect early cancer signs or precancerous polyps, aiding in prevention and early treatment.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-heart-circle-plus icon-extra-large text-base-color"></i>
-
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-heart-circle-plus icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Ovarian cancer screening tests
-                                </span>
-                                <p class="alt-font fs-17">Screening test includes transvaginal ultrasound and blood
-                                    tests like CA-125, aim to detect cancer in high-risk individuals, though routine
-                                    screening is not widely recommended.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Ovarian Cancer Screening Tests </span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Transvaginal ultrasound and CA-125 blood tests help detect ovarian cancer in high-risk individuals.</p>
                             </div>
                         </div>
                     </div>

@@ -18,6 +18,12 @@ import { PsychooncologyComponent } from './pages/psychooncology/psychooncology.c
 import { CancerscreeningComponent } from './pages/cancerscreening/cancerscreening.component';
 import { FacilitiesComponent } from './pages/facilities/facilities.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { WidgetServiceComponent } from './widget-service/widget-service.component';
+import { CancerVaccinationComponent } from './pages/cancer-vaccination/cancer-vaccination.component';
+import { GeneticCounsellingComponent } from './pages/genetic-counselling/genetic-counselling.component';
+import { PainAndPalliativeCareComponent } from './pages/pain-and-palliative-care/pain-and-palliative-care.component';
+import { PsychoOncologyConsultationComponent } from './pages/psycho-oncology-consultation/psycho-oncology-consultation.component';
+import { AboutDoctorComponent } from './pages/about-doctor/about-doctor.component';
 
 
 
@@ -38,7 +44,13 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     PsychooncologyComponent,
     CancerscreeningComponent,
     FacilitiesComponent,
-    SidebarComponent   
+    SidebarComponent,
+    WidgetServiceComponent,
+    CancerVaccinationComponent,
+    GeneticCounsellingComponent,
+    PainAndPalliativeCareComponent,
+    PsychoOncologyConsultationComponent,
+    AboutDoctorComponent   
   ],
   imports: [
     BrowserModule,

@@ -1,49 +1,6 @@
-<section class="pt-0 cover-background ipad-top-space-margin sm-pb-0"
-    style="background-image:url('assets/image/oncology/banner-2.jpg');">
-    <div class="shape-image-animation bottom-0 p-0 w-100 d-none d-md-block">
-        <svg xmlns="http://www.w3.org/2000/svg" widht="3000" height="400" viewBox="0 180 2500 200" fill="#ffffff">
-            <path class="st1" d="M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250">
-                <animate attributeName="d" dur="5s" values="M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250;
-                    M 0 250 C 400 50 400 400 3000 250 L 3000 550 L 0 550 L 0 250;
-                    M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250" repeatCount="indefinite" />
-            </path>
-        </svg>
-    </div>
-    <div class="container">
-        <div class="row align-items-center justify-content-center h-500px sm-h-300px">
-            <div class="col-12 col-xl-6 col-lg-8 col-md-10 position-relative text-center page-title-extra-large d-flex flex-wrap flex-column align-items-center justify-content-center"
-                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span
-                    class="ps-25px pe-25px pt-5px pb-5px mb-15px text-uppercase text-white fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex"><i
-                        class="bi bi-megaphone text-white icon-small me-10px"></i>Noble Cancer Care</span>
-                <h1 class="mb-20px text-white fw-600 ls-minus-1px fs-12">Contact Us</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<app-pagebanner [pagetitle]="pagetitle"></app-pagebanner>
 
-
-<section class="pt-70px pb-70px">
-    <div class="container">
-        <div class="row align-items-end justify-content-center mb-6 text-center text-lg-start sm-mb-8">
-            <div class="col-xl-5 col-lg-7 col-md-10 md-mb-25px"
-                data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span
-                    class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">How
-                    can help you?</span>
-                <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">Have a project in mind? Get in touch!</h3>
-            </div>
-            <div class="col-xl-6 offset-xl-1 col-lg-5 col-md-10 last-paragraph-no-margin">
-                <p class="w-90 lg-w-100"
-                    data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    We're here to help and answer any question you might have. We look forward to hearing from you. Any
-                    need help you please contact us or meet to office with coffee.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="pt-70px pb-70px bg-very-light-gray position-relative">
+<section class="pt-40px pb-40px bg-very-light-gray position-relative">
     <div class="container">
         <div class="row mb-8">
             <div class="col-xl-5 col-lg-6 md-mb-50px"
@@ -60,12 +17,14 @@
                             <div
                                 class="feature-box feature-box-left-icon-middle border-bottom pb-25px border-color-extra-medium-gray">
                                 <div class="feature-box-icon me-25px xs-me-15px lh-0px">
-                                    <i class="bi bi-telephone-outbound icon-medium text-dark-gray"></i>
+                                    <i class="fa-solid fa-phone-volume icon-medium text-base-color"></i>
                                 </div>
                                 <div class="feature-box-content">
                                     <span class="alt-font fs-18 fw-500">Feel free to get in touch?</span>
-                                    <span class="d-block fw-600 alt-font fs-20"><a href="tel:+91 99620 02447"
-                                            class="text-dark-gray">+91 99620 02447</a></span>
+                                    <span class="d-block fw-600 fs-20"><a href="tel:+917418458508"
+                                            class="text-dark-gray">+91 74184 58508</a></span>
+                                    <span class="d-block fw-600 fs-20"><a href="tel:+043 6245 8508                                         "
+                                            class="text-dark-gray">+043 6245 8508</a></span>
                                 </div>
                             </div>
                         </div>
@@ -73,23 +32,23 @@
                             <div
                                 class="feature-box feature-box-left-icon-middle border-bottom pb-25px border-color-extra-medium-gray">
                                 <div class="feature-box-icon me-25px xs-me-15px lh-0px">
-                                    <i class="bi bi-envelope icon-medium text-dark-gray"></i>
+                                    <i class="fa-solid fa-envelope icon-medium text-base-color"></i>
                                 </div>
                                 <div class="feature-box-content">
                                     <span class="alt-font fs-18 fw-500">How can we help you?</span>
-                                    <span class="d-block fw-600 alt-font fs-20"><a
-                                            href="mailto:noblecancercare@gmail.com">noblecancercare@gmail.com</a></span>
+                                    <span class="d-block fw-600 fs-20"><a
+                                            href="mailto:noblecancercare@gmail.com" class="text-dark-gray">{{emailContact}}</a></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col icon-with-text-style-08">
                             <div class="feature-box feature-box-left-icon-middle">
                                 <div class="feature-box-icon me-25px xs-me-15px lh-0px">
-                                    <i class="bi bi-chat-text icon-medium text-dark-gray"></i>
+                                    <i class="fa-solid fa-location-dot icon-medium text-base-color"></i>
                                 </div>
                                 <div class="feature-box-content">
                                     <span class="alt-font fs-18 fw-500">Are you ready for coffee?</span>
-                                    <span class="text-dark-gray d-block alt-font fw-600 fs-20"> Rajappa Nagar, Thanjavur
+                                    <span class="text-dark-gray d-block fw-600 fs-20"> Thangamuthu Anbalayam, 1st St, Rajjappa Nagar, Thanjavur, Tamil Nadu 613007
                                     </span>
                                 </div>
                             </div>
@@ -97,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 offset-xl-1 md-mb-50px sm-mb-0"
+            <div class="col-lg-6"
                 data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <h3 class="text-dark-gray ls-minus-2px fw-700">Looking for any help?</h3>
                 <form action="" method="post" class="contact-form-style-03">
@@ -108,6 +67,14 @@
                         <input
                             class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
                             id="exampleInputEmail1" type="text" name="name" placeholder="What's your good name" />
+                    </div>
+                    <label for="exampleInputEmail1"
+                        class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Email address*</label>
+                    <div class="position-relative form-group mb-20px">
+                        <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
+                        <input
+                            class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
+                            id="exampleInputEmail2" type="email" name="email" placeholder="Enter your email address" />
                     </div>
                     <label for="exampleInputEmail1"
                         class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Email address*</label>

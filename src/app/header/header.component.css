@@ -2,11 +2,13 @@ header .navbar-brand img {
     max-height: 70px;
 }
 
-header .navbar-brand {
-    padding: 10px 0;
-}
 
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
     color: white;
     opacity: 1;
 }
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+    padding: 15px;
+    width: 100%;
+}
+

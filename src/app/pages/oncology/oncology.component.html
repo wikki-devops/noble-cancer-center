@@ -1,387 +1,74 @@
 <app-pagebanner [pagetitle]="pagetitle"></app-pagebanner>
-<section class="overlap-height position-relative">
-    <div class="container overlap-gap-section">
+<section class="pt-40px pb-40px position-relative">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-4 pe-6 order-2 order-lg-1 lg-pe-4 md-pe-15px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <div class="col-lg-4" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <app-sidebar></app-sidebar>
             </div>
-            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true"
-                    data-animation-delay="1500">Empowering Your recovery <span class="text-dark-gray">with
-                        precision and convenience</span>
-                </h3>
+            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Comprehensive Cancer Care Begins Here</h3>
+                <img src="assets/images/services/1.png" class="mb-20px" alt="daycare" />
                 <p class="fs-18 text-dark-gray fw-400">
-                    Day Care Chemotherapy is a modern and patient-centered approach to cancer treatment, designed to
-                    deliver chemotherapy sessions in a outpatient setting. This treatment allows patients to receive the
-                    same high-quality care as inpatient chemotherapy but with
-                    <strong class="text-base-color"> added benefit of returning home the same day. </strong>
+                    An oncology consultation is the first step in diagnosing and managing cancer with a personalized treatment approach. Our expert oncologists assess your medical history, review test results, and recommend the most
+                    effective treatment plan to ensure the best possible care.
                 </p>
-                <p class="fs-18 text-dark-gray fw-400">
-                    Unlike traditional inpatient chemotherapy, where hospitalization is required for extended periods,
-                    day care chemotherapy offers a convenient, cost-effective
-                    solution that minimizes disruption to daily life. With shorter treatment durations and
-                    tailored care, patients can focus on recovery
-                    <strong class="text-base-color"> while maintaining their routines and comfort.</strong>
-                </p>
-                <img src="assets/images/services/1.png" class="mb-20px" alt="daycare">
-                <p class="fs-18 text-dark-gray fw-400">
-                    At our facility, we prioritize safety, comfort, and expert supervision, ensuring that
-                    every session is managed by highly skilled oncologists and nursing staff. With state-of-the-art
-                    equipment, a serene environment, and a compassionate team, we make your treatment journey as
-                    smooth and supportive as possible.
-                </p>
-                <div class="row mt-5 sm-mt-30px"
-                    data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="col-12 text-center">
-                        <div
-                            class="d-inline-block bg-purple fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px sm-m-10px">
-                            trust</div>
-                        <div class="d-inline-block align-middle"><span
-                                class="fs-24 text-pink d-block fw-600 ls-minus-1px mb-0 ">"Believe in those who
-                                walk with you; their strength becomes yours."</span></div>
-                    </div>
-                </div>
+                <app-widget-service></app-widget-service>
                 <div class="h-1px w-100 bg-extra-medium-gray mt-4 mb-4"></div>
-                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true"
-                    data-animation-delay="1500">Benefits of <span class="text-dark-gray"> Day Care Chemeotherapy</span>
-                </h3>
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Why is an <span class="text-dark-gray"> Oncology Consultation Important?</span></h3>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Comprehensive Health Assessment</span> - The oncologist will take a detailed medical history, asking about symptoms, family history, lifestyle factors, and any prior
+                    treatments.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Review of Diagnostic Tests</span> - The doctor will analyze blood tests, biopsy results, imaging scans (CT, MRI, PET), and other reports to confirm the diagnosis and stage
+                    of cancer.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Treatment Discussion</span> - Based on your specific cancer type and stage, the oncologist will explain the available treatment options, including chemotherapy, radiation
+                    therapy, targeted therapy, immunotherapy, and surgery.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Supportive Care Plan</span> - Cancer treatment can have physical and emotional effects, so your oncologist will provide guidance on pain management, nutritional support,
+                    mental health counseling, and lifestyle modifications to improve your quality of life.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Follow-Up Plan</span> - The doctor will schedule regular follow-ups to monitor treatment progress, manage side effects, and adjust the care plan if necessary.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Addressing Patient Concerns</span> - The consultation is also a chance for you to ask any questions about your diagnosis, prognosis, or treatment.
+                </p>
+
                 <div class="bg-light p-6 mt-6 mb-9 border-radius-6px">
                     <div class="row align-items-center">
+                        <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Time Required for <span class="text-dark-gray"> Oncology Consultation</span></h3>
                         <div class="col-md-6 pe-5 lg-pe-15px md-mb-20px">
                             <ul class="p-0 m-0 list-style-02 text-dark-gray fs-18 text-dark-gray fw-400">
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check me-10px"></i>
-                                    Convenience and Flexibility: Offers treatment with the ease of returning home
-                                    the
-                                    same day.
+                                    <p>
+                                        <strong class="text-base-color">Duration of Consultation:</strong> Typically, the consultation lasts between 30 minutes to 1 hour. The oncologist will review your medical history, discuss your
+                                        diagnosis, and recommend treatment options.
+                                    </p>
                                 </li>
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check me-10px"></i>
-                                    Cost-Effective Care: Eliminates expenses associated with overnight hospital
-                                    stays.
+                                    <p>
+                                        <strong class="text-base-color">Hospital Stay:</strong> In most cases, no overnight stay is required. Patients can return home after the consultation unless additional tests or procedures are needed.
+                                    </p>
                                 </li>
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check me-10px"></i>
-                                    Comfortable Environment: Provides a serene and patient-friendly outpatient
-                                    setting.
-                                </li>
-                                <li class="pb-10px">
-                                    <i class="fa-solid fa-check me-10px"></i>
-                                    Expert Supervision: Ensures safe, personalized care by skilled oncologists and
-                                    nurses.
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div class="col-md-6">
-                            <img src="assets/images/services/3.png" alt="Day Care Chemotherapy"
-                                style="border-radius: 10% 30% 50% 70%;" />
-                        </div>
-                    </div>
-                </div>
-                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true"
-                    data-animation-delay="1500">Types of <span class="text-dark-gray"> Chemeotherapy</span>
-                </h3>
-                <p class="fs-18 text-dark-gray fw-400"><span class="fw-600 text-decoration-line-bottom ">
-                        Adjuvant Therapy</span> - Adjuvant therapy is given after primary treatments like surgery or
-                    radiation.
-                    It aims to destroy remaining cancer cells that might lead to recurrence. This approach enhances
-                    the
-                    chances of long-term remission and recovery.</p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px">
-                </div>
-                <p class="fs-18 text-dark-gray fw-400"><span class="fw-600 text-decoration-line-bottom ">
-                        Curative
-                        Therapy</span> - Curative therapy focuses on completely eradicating cancer and preventing
-                    its
-                    return. Often combined with surgery or radiation, it is used for early-stage cancers where
-                    remission
-                    is achievable. This method is tailored to aggressively target the disease for a full cure.</p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px">
-                </div>
-                <p class="fs-18 text-dark-gray fw-400"><span class="fw-600 text-decoration-line-bottom ">Neoadjuvant
-                        Therapy</span> - Neoadjuvant therapy is administered before surgery or radiation to shrink
-                    tumors. This method makes surgical removal easier and more effective while reducing the
-                    invasiveness
-                    of the procedure. It also provides insight into how the tumor responds to treatment.</p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px">
-                </div>
-                <p class="fs-18 text-dark-gray fw-400"><span class="fw-600 text-decoration-line-bottom ">Palliative
-                        Therapy</span> - Palliative therapy aims to improve the quality of life for patients with
-                    advanced-stage cancer. It reduces tumor size and alleviates symptoms like pain and discomfort.
-                    This
-                    method focuses on providing relief rather than achieving a cure.</p>
-                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true"
-                    data-animation-delay="1500">Benefits of<span class="text-dark-gray"> Chemeotherapy</span>
-                </h3>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center"
-                    data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="line-icon-Up-2 icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400">
-                                    Reduces tumor size and slows cancer growth, extending life
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="line-icon-Up-2  icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400"> Makes certain cancers more amenable to surgical
-                                    removal. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="line-icon-Up-2 icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400"> Reduces the risk of cancer recurrence
-                                    post-surgery.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true"
-                    data-animation-delay="1500">Downsides of<span class="text-dark-gray"> Chemeotherapy</span>
-                </h3>
-
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 justify-content-center"
-                    data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-xmark icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400">
-                                    Can cause various short-term and long-term side effects.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-xmark  icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400">
-                                    Frequent hospital visits for treatment and tests can be exhausting.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-03">
-                        <div class="feature-box p-8">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-xmark icon-double-large text-majorelle-blue mb-20px"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <p class="fs-18 text-dark-gray fw-400">
-                                    The effectiveness of chemotherapy varies among individuals.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-light p-6 mt-6 mb-9 border-radius-6px">
-                    <div class="row">
-                        <div class="col-md-6 pe-5 lg-pe-15px mb-4">
-                            <h5 class="text-dark-gray fw-600 mb-8">Benefits of Chemotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 fs-18 text-dark-gray fw-400">
-                                <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
-                                    <i class="fa-solid fa-check me-10px"></i>
-                                    Reduces tumor size and slows cancer growth, extending life
-                                </li>
-                                <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
-                                    <i class="fa-solid fa-check me-10px"></i>
-                                    Makes certain cancers more amenable to surgical removal.
-                                </li>
-                                <li class="pb-10px">
-                                    <i class="fa-solid fa-check me-10px"></i>
-                                    Reduces the risk of cancer recurrence post-surgery.
+                                    <p><strong class="text-base-color">Follow-Up Appointments:</strong> Follow-up visits are generally scheduled every 1 to 4 weeks, depending on your treatment plan and progress.</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <h5 class="text-dark-gray fw-600 mb-8">Downsides of Chemotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 fs-18 text-dark-gray fw-400">
-                                <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
-                                    <i class="fa-solid fa-xmark me-10px"></i>
-                                    Can cause various short-term and long-term side effects.
-                                </li>
-                                <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
-                                    <i class="fa-solid fa-xmark me-10px"></i>
-                                    Frequent hospital visits for treatment and tests can be exhausting.
-                                </li>
-                                <li class="pb-10px">
-                                    <i class="fa-solid fa-xmark  me-10px"></i>
-                                    The effectiveness of chemotherapy varies among individuals.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-light p-35px border-radius-6px mt-9">
-                    <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                        data-animation-delay="1500">Potential <span class="text-highlight fw-800">Side Effects<span
-                                class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                    </h3>
-                    <div class="row align-items-center justify-content-center justify-content-lg-start alt-font fs-17">
-                        <div class="row row-cols-1 row-cols-sm-3">
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>Hair loss
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>breathing issues
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>diarrhea</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>constipation</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>nausea
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>vomiting</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i> loss of appetite
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>excessive bleeding
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>weakened immune
-                                        system
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i>mouth sores</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus me-10px"></i> hypersensitivity,
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-</section>
-<section class="overflow-hidden">
-    <div class="container">
-        <div class="row mb-7 justify-content-center">
-            <div class="col-lg-4 md-mb-60px sm-mb-45px text-center text-lg-start"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                <h3 class="fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500">Chemeotherapy <span class="text-highlight fw-800">Treatment Methods<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="xl-w-100 alt-font fs-17">Chemotherapy is a cornerstone cancer treatment often combined with
-                    surgery or radiation. From infusions and pills to localized and direct tumor applications, it’s
-                    tailored to individual needs.</p>
-                <p class="xl-w-100 alt-font fs-17">We’re Here for You !!<br>
-                    Schedule your consultation today to explore which chemotherapy method is right for you.</p>
-                <a href="#treatment-options"
-                    class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px fs-17">
-                    <span>
-                        <span class="btn-double-text alt-font" data-text="Book Appointments">Book Appointments</span>
-                        <span><i class="fa-solid fa-stethoscope"></i></span>
-                    </span>
-                </a>
-            </div>
-            <div class="col-lg-8 alt-font fs-17">
-                <div class="row row-cols-1 row-cols-md-2 justify-content-center"
-                    data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-syringe icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Chemotherapy Infusions</span>
-                                <p>Administered through a vein infusion (intravenously), using a needle inserted into a
-                                    vein in the arm or chest.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-capsules icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Oral Chemotherapy</span>
-                                <p>Pills and capsules containing chemotherapy drugs can be taken orally for some
-                                    treatments.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 sm-mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-vial icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Chemotherapy Injections</span>
-                                <p>Medications are injected directly into the vein, similar to how a shot is
-                                    administered.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-pump-soap icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Chemotherapy Creams</span>
-                                <p>Creams or gels containing chemotherapy drugs are applied to treat certain skin
-                                    cancers.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-heart-pulse icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Localized Chemotherapy</span>
-                                <p>Administered directly to a specific body part, such as the abdomen (intraperitoneal),
-                                    chest cavity, or central nervous system.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col icon-with-text-style-01">
-                        <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-dna icon-extra-large text-base-color"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="fw-600 text-dark-gray d-block mb-5px">Direct Tumor
-                                    Administration</span>
-                                <p>Chemotherapy drugs are applied directly to the cancer site or surgical site for
-                                    targeted treatment.</p>
-                            </div>
+                            <img src="assets/images/services/3.png" alt="Day Care Chemotherapy" style="border-radius: 10% 30% 50% 70%;" />
                         </div>
                     </div>
                 </div>
@@ -389,4 +76,5 @@
         </div>
     </div>
 </section>
+
 <app-cta></app-cta>

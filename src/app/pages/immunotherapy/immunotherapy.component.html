@@ -1,106 +1,38 @@
 <app-pagebanner [pagetitle]="pagetitle"></app-pagebanner>
-<section class="overlap-height position-relative">
-    <div class="container overlap-gap-section">
+<section class="pt-40px pb-40px position-relative">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-4 pe-6 order-2 order-lg-1 lg-pe-4 md-pe-15px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <div class="position-sticky top-80px lg-top-40px">
-                    <div class="mb-30px alt-font">
-                        <ul class="p-0 m-0 list-style-02  fw-500">
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Immuno
-                                    Theraphy<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Targted
-                                    Theraphy<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Pain
-                                    & Palliative care<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Screening
-                                    for Cancers <span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Psycho-oncology
-                                    Consultation<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                            <li class="pb-15px mb-15px"> <a href="#"
-                                    class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto">Cancer
-                                    Vaccination<span class="bg-dark-gray text-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span></a></li>
-                        </ul>
-                    </div>
-                    <div
-                        class="ps-14 pe-14 pt-10 pb-10 lg-p-25px bg-dark-gray border-radius-6px text-center text-lg-start">
-                        <span class="fs-24 fw-500 text-white mb-10px d-inline-block">Open to Discover Hope</span>
-                        <p class="text-white mb-15px alt-font fs-17">
-                            Every page promises innovation, expert care, and unwavering support. Open to see how we’re
-                            transforming cancer care.
-                        </p>
-                        <a href="assets/brochure.pdf" download
-                            class="btn btn-extra-large btn-switch-text btn-gradient-purple-pink btn-rounded ls-0px mt-15px">
-                            <span>
-                                <span class="btn-double-text alt-font fs-17 align" data-text="Download">Download</span>
-                                <span><i class="fa-solid fa-download"></i></span>
-                            </span>
-                        </a>
-                    </div>
-
-                </div>
+            <div class="col-lg-4" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <app-sidebar></app-sidebar>
             </div>
-            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-
-                <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500"><span class="text-highlight fw-800">Harnessing Your Immune System to
-                        Fight Cancer<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
+            <div class="col-lg-8 order-1 order-lg-2 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">
+                    Harnessing Your Immune System to
+                    <span class="text-dark-gray">Fight Cancer</span>
                 </h3>
-                <p class="alt-font fs-17"> Immunotherapy is a groundbreaking cancer treatment that leverages the power
-                    of your immune system to detect and destroy cancer cells. Unlike normal cells, which naturally die
-                    off, cancer cells multiply uncontrollably, <strong class="text-dark-gray"> often mutating to evade
-                        immune detection. </strong></p>
 
+                <p class="fs-18 text-dark-gray fw-400">
+                    Immunotherapy is a groundbreaking cancer treatment that leverages the power of your immune system to detect and destroy cancer cells. Unlike normal cells, which naturally die off, cancer cells multiply uncontrollably,
+                    <strong class="text-dark-gray"> often mutating to evade immune detection. </strong>
+                </p>
 
-                <p class="alt-font fs-17">Immunotherapy drugs are specially designed to alert the immune system to these
-                    rogue cells, enabling it to identify and eliminate them effectively. By enhancing the body’s natural
-                    defenses, this treatment offers a <strong class="text-dark-gray"> targeted approach to combat cancer
-                        while sparing healthy tissues.</strong> </p>
-
-
-                <div class="mb-6 sm-mb-35px last-paragraph-no-margin">
-                    <img src="assets/image/services/4.png" class="mb-20px" alt="">
-                    <div class="px-3">
-                        <p class="text-dark-gray alt-font fs-17 lh-30">
-                            Our hospital delivers advanced immunotherapy treatments with a personalized approach,
-                            utilizing the latest technologies and expert oncologists to achieve the best outcomes. We
-                            combine innovative care with compassionate support to guide patients through every step of
-                            their journey.
-                        </p>
-                    </div>
-                    <div class="row mt-5 sm-mt-30px"
-                        data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="col-12 text-center">
-                            <div
-                                class="d-inline-block bg-purple fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px sm-m-10px">
-                                trust</div>
-                            <div class="d-inline-block align-middle"><span
-                                    class="fs-24 text-pink d-block fw-600 ls-minus-1px mb-0 ">"Believe in those who
-                                    walk with you; their strength becomes yours."</span></div>
-                        </div>
-                    </div>
-                    <div class="h-1px w-100 bg-extra-medium-gray mt-4 mb-4"></div>
-                </div>
-
+                <p class="fs-18 text-dark-gray fw-400">
+                    Immunotherapy drugs are specially designed to alert the immune system to these rogue cells, enabling it to identify and eliminate them effectively. By enhancing the body’s natural defenses, this treatment offers a
+                    <strong class="text-dark-gray"> targeted approach to combat cancer while sparing healthy tissues.</strong>
+                </p>
+                <img src="assets/images/services/4.png" class="mb-20px" alt="daycare" />
+                <p class="fs-18 text-dark-gray fw-400">
+                    Our hospital delivers advanced immunotherapy treatments with a personalized approach, utilizing the latest technologies and expert oncologists to achieve the best outcomes. We combine innovative care with compassionate
+                    support to guide patients through every step of their journey.
+                </p>
+                <app-widget-service></app-widget-service>
+                <div class="h-1px w-100 bg-extra-medium-gray mt-4 mb-4"></div>
 
                 <div class="bg-light p-6 mt-6 mb-9 border-radius-6px">
                     <div class="row">
                         <div class="col-md-6 pe-5 lg-pe-15px mb-4">
                             <h5 class="text-dark-gray fw-600 mb-8">Benefits of Immunotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 text-dark-gray alt-font fs-17">
+                            <ul class="p-0 m-0 list-style-02 text-dark-gray fs-18 text-gray fw-400 primary-font">
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-check fs-15 me-10px"></i>
                                     Targets cancer cells with high precision, minimizing damage to healthy tissue.
@@ -117,7 +49,7 @@
                         </div>
                         <div class="col-md-6">
                             <h5 class="text-dark-gray fw-600 mb-8">Downsides of Immunotherapy</h5>
-                            <ul class="p-0 m-0 list-style-02 text-dark-gray alt-font fs-17">
+                            <ul class="p-0 m-0 list-style-02 text-dark-gray fs-18 text-gray fw-400 primary-font">
                                 <li class="pb-10px mb-10px border-bottom border-color-extra-medium-gray">
                                     <i class="fa-solid fa-xmark fs-15 me-10px"></i>
                                     May cause immune-related side effects, like inflammation or organ damage.
@@ -134,102 +66,46 @@
                         </div>
                     </div>
                 </div>
+                <h3 class="fw-600 alt-font text-base-color shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Types of <span class="text-dark-gray"> Immunotherapy</span></h3>
 
-                <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500">Types Of<span class="text-highlight fw-800"> Immunotherapy <span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">Immune
-                        Checkpoint Inhibitors</span> - These drugs block immune checkpoint proteins (e.g., PD-1, PD-L1)
-                    that prevent the immune system from attacking cancer cells, allowing for stronger immune responses
-                    against tumors. They have shown promising results in cancers like melanoma, lung cancer, and more.
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Immune Checkpoint Inhibitors</span> - These drugs block immune checkpoint proteins (e.g., PD-1, PD-L1) that prevent the immune system from attacking cancer cells, allowing
+                    for stronger immune responses against tumors. They have shown promising results in cancers like melanoma, lung cancer, and more.
                 </p>
                 <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom"> Monoclonal
-                        Antibodies</span> - Laboratory-made antibodies designed to target specific proteins on cancer
-                    cells or pathogens, marking them for destruction by the immune system. Some monoclonal antibodies
-                    also deliver toxic agents directly to cancer cells to kill them.</p>
-                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">T-Cell Therapy
-                        (e.g., CAR-T)</span> - A treatment where a patient’s T cells are modified to express chimeric
-                    antigen receptors (CARs) to better recognize and attack cancer cells. It has shown significant
-                    success in treating blood cancers like leukemia and lymphoma.
-
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Monoclonal Antibodies</span> - Laboratory-made antibodies designed to target specific proteins on cancer cells or pathogens, marking them for destruction by the immune
+                    system. Some monoclonal antibodies also deliver toxic agents directly to cancer cells to kill them.
                 </p>
                 <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
-                <p class="alt-font fs-17"><span class="fw-600 text-dark-gray text-decoration-line-bottom">Cancer
-                        Vaccines</span> - These vaccines stimulate the immune system to recognize and target specific
-                    cancer-related antigens, prompting an immune response against the tumor. They can be used both as
-                    preventive vaccines (e.g., HPV vaccine) and therapeutic vaccines for existing cancers.</p>
-
-
-                <div class="bg-light p-35px border-radius-6px mt-9">
-                    <h3 class="fs-50 fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                        data-animation-delay="1500">Potential <span class="text-highlight fw-800">Side Effects<span
-                                class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                    </h3>
-                    <div class="row align-items-center justify-content-center justify-content-lg-start">
-                        <div class="row row-cols-1 row-cols-sm-3  alt-font fs-17">
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Fatigue
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Oral sores
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Vomiting or
-                                        diarrhea</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Itching or rashes
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Fluid accumulation
-                                        (edema)</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i> Cold or fever
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Elevated blood
-                                        pressure</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul class="p-0 m-0 list-style-02">
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Headaches
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>mouth sores</li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i> High blood sugar
-                                    </li>
-                                    <li class="pb-5px"><i class="fa-solid fa-plus fs-17 me-10px"></i>Cough and
-                                        breathlessness</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">T-Cell Therapy (e.g., CAR-T)</span> - A treatment where a patient’s T cells are modified to express chimeric antigen receptors (CARs) to better recognize and attack cancer
+                    cells. It has shown significant success in treating blood cancers like leukemia and lymphoma.
+                </p>
+                <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray mb-25px mt-25px"></div>
+                <p class="fs-18 text-dark-gray fw-400">
+                    <span class="fw-600 text-decoration-line-bottom">Cancer Vaccines</span> - These vaccines stimulate the immune system to recognize and target specific cancer-related antigens, prompting an immune response against the
+                    tumor. They can be used both as preventive vaccines (e.g., HPV vaccine) and therapeutic vaccines for existing cancers.
+                </p>
             </div>
         </div>
     </div>
-
 </section>
-<section class="overflow-hidden">
+
+<section class="pt-40px pb-40px position-relative" style="background-image: url(assets/images/treatment-bg.png);">
     <div class="container">
-        <div class="row mb-7 justify-content-center">
-            <div class="col-lg-4 md-mb-60px sm-mb-45px text-center text-lg-start"
-                data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                <h3 class="fw-600 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true"
-                    data-animation-delay="1500">Immunotherapy <span class="text-highlight fw-800">Treatment Methods<span
-                            class="bg-gradient-emerald-blue-emerald-green h-8px bottom-10px opacity-6 separator-animation"></span></span>
-                </h3>
-                <p class="xl-w-100 alt-font fs-17">Immunotherapy enhances the body's immune system to combat diseases,
-                    including cancer. It works by stimulating or restoring the immune system's natural ability to detect
-                    and destroy abnormal cells.</p>
-                <p class="xl-w-100 alt-font fs-17">We’re Here for You !!<br>
-                    Schedule your consultation today to explore which immunotherapy method is right for you.</p>
-                <a href="#treatment-options"
-                    class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px fs-17">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 md-mb-60px sm-mb-45px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                <h3 class="fw-600 alt-font text-base-color mt-15px shadow-none fs-50" data-shadow-animation="true" data-animation-delay="1500">Immunotherapy<span class="text-dark-gray"> Treatment Methods</span></h3>
+
+                <p class="fs-18 text-dark-gray fw-400">
+                    Immunotherapy enhances the body's immune system to combat diseases, including cancer. It works by stimulating or restoring the immune system's natural ability to detect and destroy abnormal cells.
+                </p>
+                <p class="fs-18 text-dark-gray fw-400">
+                    We’re Here for You !!<br />
+                    Schedule your consultation today to explore which immunotherapy method is right for you.
+                </p>
+                <a href="contact" class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px fs-17">
                     <span>
                         <span class="btn-double-text alt-font" data-text="Book Appointments">Book Appointments</span>
                         <span><i class="fa-solid fa-stethoscope"></i></span>
@@ -237,84 +113,70 @@
                 </a>
             </div>
             <div class="col-lg-8">
-                <div class="row row-cols-1 row-cols-md-2 justify-content-center"
-                    data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                <div class="row row-cols-1 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-syringe icon-extra-large text-base-color"></i>
-
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-syringe icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Intravenous (IV)
-                                    Infusion:</span>
-                                <p class="alt-font fs-17">Administered through a vein infusion (intravenously), using a
-                                    needle inserted into a
-                                    vein in the arm or chest.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Intravenous (IV) Infusion:</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Administered through a vein infusion (intravenously), using a needle inserted into a vein in the arm or chest.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-capsules icon-extra-large text-base-color"></i>
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-capsules icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Oral Administration</span>
-                                <p class="alt-font fs-17">Some immune-modulating drugs are available in pill form, used
-                                    for specific checkpoint inhibitors or targeted therapies..</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Oral Administration</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Some immune-modulating drugs are available in pill form, used for specific checkpoint inhibitors or targeted therapies..</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 sm-mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-biohazard icon-extra-large text-base-color"></i>
-
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-biohazard icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Intratumoral Injection</span>
-                                <p class="alt-font fs-17">Immunotherapy is injected directly into the tumor, used in
-                                    some cancer vaccines and experimental treatments.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Intratumoral Injection</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Immunotherapy is injected directly into the tumor, used in some cancer vaccines and experimental treatments.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-tint icon-extra-large text-base-color"></i>
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-tint icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Intravesical Injection</span>
-                                <p class="alt-font fs-17">Delivered directly into the bladder for localized treatment,
-                                    commonly used in bladder cancer immunotherapy.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Intravesical Injection</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Delivered directly into the bladder for localized treatment, commonly used in bladder cancer immunotherapy.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01 mb-6 xs-mb-30px">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                            <div class="feature-box-icon">
-                                <i class="fa-solid fa-pump-soap icon-extra-large text-base-color"></i>
+                            <div class="feature-box-icon align-content-center">
+                                <i class="fa-solid fa-pump-soap icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Topical Application</span>
-                                <p class="alt-font fs-17"> Certain immunotherapies, like creams or ointments, are
-                                    applied directly to the skin, used for skin cancers or localized conditions.
-
-                                </p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Topical Application</span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Certain immunotherapies, like creams or ointments, are applied directly to the skin, used for skin cancers or localized conditions.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col icon-with-text-style-01">
                         <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
                             <div class="feature-box-icon">
-                                <i class="fa-solid fa-heart-circle-plus icon-extra-large text-base-color"></i>
-
+                                <i class="fa-solid fa-heart-circle-plus icon-extra-large text-base-color w-60px h-60px justify-content-center"></i>
                             </div>
                             <div class="feature-box-content">
-                                <span class="fs-20 fw-600 text-dark-gray d-block mb-5px">Subcutaneous Injection: </span>
-                                <p class="alt-font fs-17">Immunotherapy is injected under the skin, often used for
-                                    certain monoclonal antibodies and cytokine therapies.</p>
+                                <span class="fw-600 fs-22 text-dark-gray d-block mb-5px">Subcutaneous Injection: </span>
+                                <p class="fs-18 text-gray fw-400 primary-font">Immunotherapy is injected under the skin, often used for certain monoclonal antibodies and cytokine therapies.</p>
                             </div>
                         </div>
                     </div>
