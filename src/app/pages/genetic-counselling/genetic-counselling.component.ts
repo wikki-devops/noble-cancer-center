@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./genetic-counselling.component.css']
 })
 export class GeneticCounsellingComponent {
-
+  pagetitle = 'Genetic Counselling';
 }
