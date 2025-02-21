@@ -2,13 +2,16 @@ header .navbar-brand img {
     max-height: 70px;
 }
 
-
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
-    color: white;
-    opacity: 1;
+.navbar .navbar-nav .nav-link {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--base-color);
+    padding: 15px !important;
 }
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
-    padding: 15px;
+
+.navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     width: 100%;
-}
-
+    padding: 15px;
+  }

@@ -1,115 +1,51 @@
 <header>
-    <nav class="navbar navbar-expand-lg header-light w-100 bg-white">
+    <nav class="navbar navbar-expand-lg bg-white header-reverse" data-header-hover="light">
         <div class="container-fluid">
-            <div class="col-auto col-lg-2">
-                <a class="navbar-brand" href="home">
-                    <img alt class="default-logo" data-at2x="assets/images/logo.png" src="assets/images/logo.png" />
-                    <img alt class="alt-logo" data-at2x="assets/images/logo.png" src="assets/images/logo.png" />
-                    <img alt class="mobile-logo" data-at2x="assets/images/logo.png" src="assets/images/logo.png" />
+            <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                <a class="navbar-brand p-10px" href="home">
+                    <img src="assets/images/logo.png" data-at2x="assets/images/logo.png" alt="" class="default-logo">
+                    <img src="assets/images/logo.png" data-at2x="assets/images/logo.png" alt="" class="alt-logo">
+                    <img src="assets/images/logo.png" data-at2x="assets/images/logo.png" alt="" class="mobile-logo">
                 </a>
             </div>
-            <div class="col-auto ms-auto md-ms-0 menu-order position-static">
-                <button aria-controls="navbarNav" aria-label="Toggle navigation" class="navbar-toggler float-start"
-                    data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+            <div class="col-auto menu-order">
+                <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="oncology-consultation">
-                                Oncology Consultation
-                            </a>
+                        <li class="nav-item"><a href="oncology-consultation" class="nav-link">Oncology Consultation</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="daycarechemotherapy">
-                                Daycare chemotheraphy
-                            </a>
+                        <li class="nav-item"><a href="daycarechemotherapy" class="nav-link">Daycare chemotheraphy</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-with-icon-style02">
-                            <a class="nav-link" href="javascript:void(0)">
-                                Other Cancer Treatements
-                            </a>
-                            <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="targetedtherapy">
-                                        Targeted
-                                        Chemotheraphy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="immunotherapy">
-                                        Immunotherapy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="cancerscreening">
-                                        Cancer Screening
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="cancer-vaccination">
-                                        Cancer Vaccination
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="genetic-counselling">
-                                        Genetic Counselling
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="pain-and-palliative-care">
-                                        Pain & Palliative care
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="psycho-oncology-consultation">
-                                        Psycho Oncology Consultation
-                                    </a>
-                                </li>
+                        <li class="nav-item dropdown dropdown-with-icon">
+                            <a href="javascripit:void(0)" class="nav-link">Other Cancer Treatements</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a href="targetedtherapy">Targeted Chemotheraphy</a></li>
+                                <li><a href="immunotherapy">Immunotherapy</a></li>
+                                <li><a href="cancerscreening">Cancer Screening</a></li>
+                                <li><a href="cancer-vaccination">Cancer Vaccination</a></li>
+                                <li><a href="genetic-counselling">Genetic Counselling</a></li>
+                                <li><a href="pain-and-palliative-care">Pain & Palliative care</a></li>
+                                <li><a href="psycho-oncology-consultation">Psycho Oncology Consultation</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="about-doctor" class="nav-link">About Doctor</a></li>
-                        <li class="nav-item dropdown dropdown-with-icon-style02">
-                            <a class="nav-link" href="javascript:void(0)">
-                                Resources
-                            </a>
-                            <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="facilities">
-                                        Facilities
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="faq">FAQs</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact">
-                                        Contact
-                                    </a>
-                                </li>
+                        <li class="nav-item dropdown dropdown-with-icon">
+                            <a href="javascripit:void(0)" class="nav-link">Resources</a>
+                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a href="facilities">Facilities</a></li>
+                                <li><a href="faq">FAQs</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
                     </ul>
-                </div>
-            </div>
-            <div class="col-auto text-left d-none d-sm-block">
-                <div class="header-icon">
-                    <div class="header-button">
-                        <a class="btn btn-medium btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px mb-15px"
-                            href="contact">
-                            <span>
-                                <span class="btn-double-text fs-15" data-text="Book Appointments">
-                                    Book
-                                    Appointments
-                                </span>
-                                <span>
-                                    <i class="fa-solid fa-stethoscope"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
